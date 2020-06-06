@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:bopfer/mongoose-create-types.git",
-  "author": "Bryan Opfer <bopfer@gmail.com>",
+  "author": "Bryan Opfer <824368+bopfer@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/mongoose": "^5.7.22",
