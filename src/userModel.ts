@@ -1,5 +1,8 @@
 import mongoose from 'mongoose';
 
+/**
+ * The fields available in a User document instance.
+ */
 type User = {
   firstName: string;
   lastName: string;
