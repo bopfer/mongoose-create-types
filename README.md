@@ -8,13 +8,22 @@ It looks like the main issue with `create` (for me anyway) is related to virtual
 
 It's very possible I am going something wrong with my Mongoose and/or type definitions for my Mongoose models.  But, I am using the same setup I see in many other places.
 
+It kind of seems like there needs to be 2 distinct types for a model.
+
+1. The one that is used when creating a new document.
+2. And the one that is used for a document instance.
+
+I am not sure if that makes sense or not though, or how to get the generics in the right place for that setup (if possible)
+
+---
+
 To see the error:
 
 1. Clone this repo.
 2. Run `yarn install`
 3. Run `yarn type-check`
 
-This error then show:
+This error will show in the output:
 
 ```
 src/createUser.ts:3:18 - error TS2769: No overload matches this call.
