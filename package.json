@@ -10,7 +10,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "mongoose": "^5.9.18"
+    "mongoose": "^5.13.15"
   },
   "scripts": {
     "type-check": "tsc -p tsconfig.json"
